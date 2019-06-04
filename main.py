@@ -39,7 +39,7 @@ with open('./model.json') as f:  # 加载模型
  
 PERIOD = len(PATTEN[0])  # 周期(图案列数)
  
-START_DATE = '2018-7-15'  # 开始日期，很重要，左上角提一格的日期，自己手动修改
+START_DATE = '2019-1-6'  # 开始日期，很重要，左上角提一格的日期，自己手动修改
 now = datetime.datetime.now().strftime('%Y-%m-%d')
  
 row = calculate_date(START_DATE, now) % 7
