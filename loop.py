@@ -50,7 +50,7 @@ with open('./model.json') as f:  # 加载模型
  
 PERIOD = len(PATTEN[0])  # 周期(图案列数)
  
-START_DATE = '2018-6-1'  # 开始日期, 码云和git显示不一样, 建议从最左上角开始
+START_DATE = '2018-7-8'  # 开始日期, 码云和git显示不一样, 建议从最左上角开始
 now = datetime.datetime.now().strftime('%Y-%m-%d')
  
 os.system('timedatectl set-ntp false') # 关闭时间自动同步
